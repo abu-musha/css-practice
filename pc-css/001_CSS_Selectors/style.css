@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+}
+
+
+
+div{
+  width: 200px;
+  height: 200px;
+  background: green;
+  margin-bottom: 20px;
+  
+}
+
+h1{
+  color: red;
+  font-size: 20px;
+}
+
+
+p{
+  color: blue;
+  font-size: 20px;
+}
+
+div p{
+  color: black;
+}
+
+.text-bk{
+  color: red;
+  text-align: right;
+  background-color: aqua;
+}
+
+.first-div{
+  background: blue;
+}
+
+.first-div p{
+  color: white;
+}
+
+#big-div{
+  width: 400px;
+}
+
+#big-div-two, #big-div, .first-div{
+  width: 500px;
+}
