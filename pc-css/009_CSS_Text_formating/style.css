@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  color: black;  
+  background: burlywood;
+  text-align: center;
+  text-align: right;
+  margin-top: 20px;
+
+}
+
+p{
+  margin-bottom: 20px;
+  
+}
+
+.one{
+  text-align: right;
+  text-align-last: center;
+}
+
+.two{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.three{
+  margin-top:20px;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.baseline{
+  vertical-align: baseline;
+}
+
+.text-top{
+  vertical-align: text-top;
+}
+
+.text-bottom{
+  vertical-align: text-bottom;
+}
+
+.sub{
+  vertical-align: sub;
+}
+
+.sup{
+  vertical-align: super;
+}
+
+a{
+  text-decoration: overline underline;
+}
+
+
+h2{
+  text-transform: lowercase;
+  
+}
+
+.new-text{
+  text-indent: 100px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  word-spacing: 15px;
+}
+
+p{
+  white-space: nowrap;
+  white-space: break-spaces;
+  text-shadow: 0px 5px 5px #ddd;
+}
+
+
