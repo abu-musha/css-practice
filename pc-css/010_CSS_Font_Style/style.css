@@ -1,0 +1,39 @@
+h1{
+  font-family: serif;
+  font-family: sans-serif;
+  font-family: monospace;
+  font-family: cursive;
+  font-family: fantasy;
+
+  font-family: roboto;
+  font-family: 'lato', sans-sarif;
+
+
+  /* Serif Font */
+  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  /* Sans-Sarif Font */
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  /* Monospace Font  */
+  font-family: 'Courier New', Courier, monospace;
+
+
+  /* Fantasy Font  */
+  font-family: papyrus;
+
+
+  /* cursive Font  */
+  font-family: Brush Script MT;
+}
+
+h2{
+  font-size: 100%;
+  font-size: 25px;
+  font-size: 2em;
+  font-style: italic;
+  font-style: oblique;
+  font-weight: bold;
+}
