@@ -1,10 +1,11 @@
 i{
-  color: white;
-  background-color: blue;
+  
   padding: 5px;
   font-size: 25px;
 }
 
-.font{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.youtube-icon{
+  background-color: red;
+  color: white;
+  
 }
