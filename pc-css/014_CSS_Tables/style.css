@@ -1,0 +1,35 @@
+table,th, td{
+    border: 1px solid tomato;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+table{
+    width: 50%;
+}
+
+th{
+    background: pink;
+    height: 50px;
+    text-align: center;
+    border: 1px solid palegreen;
+}
+
+td{
+    background: rgb(86, 95, 107);
+    border: 1px solid greenyellow;
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+    height: 35px;
+}
+
+tr:hover th,
+tr:hover td{
+    background-color: bisque;
+}
+
+div{
+    width: 500px;
+    overflow: auto;
+    overflow-x: scroll;
+}
