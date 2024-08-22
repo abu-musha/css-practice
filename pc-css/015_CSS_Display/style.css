@@ -7,5 +7,12 @@ h1{
 }
 
 span{
+  display: none;
   display: block;
+}
+
+a.btn{
+  background-color: violet;
+  color: white;
+  padding: 10px 20px;
 }
