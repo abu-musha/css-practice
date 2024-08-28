@@ -1,0 +1,56 @@
+a:hover{
+  color: red;
+  font-size: 20px;
+}
+
+a:visited{
+  color: purple;
+}
+
+/* li:first-child{
+  color: red;
+}
+
+li:last-child{
+  color: red;
+} */
+
+li:nth-child(2n+2){
+  color: red;
+}
+
+body{
+  background-color: aqua;
+  background-image: url('bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 200px 200px;
+}
+
+body::before{
+  content: "Element";
+  background-image: url('bg2.jpg');
+  background-size: 100px 300px;
+}
+
+body::after{
+  content: "Element";
+  background-image: url('bg2.jpg');
+  background-size: 100px 300px;
+}
+
+p::first-line{
+  color: brown;
+  font-weight: bold;
+  font-size: 35px;
+
+}
+
+p::first-letter{
+  font-size: 55px;
+}
+
+p::selection{
+    background: #9b59b6;
+    color: white;
+}
