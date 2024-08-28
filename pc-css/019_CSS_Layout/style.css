@@ -1,0 +1,79 @@
+.div{
+  background-color: #34495e;
+  color: aqua;  
+  width: 32%;
+  height: 200px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  float: left;
+}
+
+img{
+  float: none;
+  float: left;
+  float: right;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  float: none;
+  margin: 0 auto 15px;
+  display: block;
+  float: left;
+  float: inherit;
+  
+}
+
+
+.parent{
+  border: 5px solid red;
+  overflow: hidden;
+  overflow: auto;
+}
+
+
+#nav{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;  
+  overflow: hidden;
+  background-color: #e74c3c;
+  margin: 0px 0px 15px;
+}
+
+#nav li{
+  float: left;
+}
+
+#nav li a{
+  display: inline-block;
+  padding: 12px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#nav li a:hover{
+  background: #e67e22;
+}
+
+#display{
+  background-color: #2ecc71;
+  margin: 0px 0px 15px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+#display li{
+  display: inline-block;
+}
+
+#display li a{
+  display: inline-block;
+  padding: 12px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#display li a:hover{
+  background: #e67e22;
+}
