@@ -1,0 +1,69 @@
+
+
+body{
+    font-family: "Poppins", system-ui;
+    margin: 0px;
+}
+
+#main_menu{
+  background: #6c5ce7;
+}
+
+#main_menu ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+#main_menu li{
+  display: inline-block;
+  position: relative;
+}
+
+#main_menu li a{
+  display: block;
+  padding: 12px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#main_menu li a:hover{
+  background: #a29bfe;
+}
+
+
+/* Droup Down Menu Style */
+
+#main_menu ul ul{
+  position: absolute;
+  left: 0px;
+  top: 48px;
+  background-color: #0984e3;
+  width: 200px;
+  display: none;
+  z-index: 999;
+}
+
+#main_menu ul ul li{
+  display: block;
+}
+
+#main_menu ul li:hover ul{
+  display: block;
+}
+
+#main_menu ul li:hover a{
+  background: #636e72;
+}
+
+#main_menu ul li:hover li a{
+  background-color: #0984e3;
+}
+
+#main_menu ul ul li a:hover{
+  background: #636e72;
+  
+}
+
+
