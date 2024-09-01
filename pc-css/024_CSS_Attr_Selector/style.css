@@ -1,0 +1,45 @@
+body{
+  margin: 0px;
+}
+
+a[target]{
+  text-decoration: none;
+  color: red;
+}
+
+a[target="_self"]{
+  color: purple;
+}
+
+a[title~="Abu"]{
+  color: aqua;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+a[title~="Md."]{
+  color: blue;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+div[class|="child"]{
+  width: 300px;
+  height: 200px;
+  background: #2980b9;
+}
+
+div[class^="child"]{
+  width: 300px;
+  height: 200px;
+  background: #e67e22;
+  margin-bottom: 5px;
+}
+
+div[class$="ial"]{
+  background-color: aquamarine;
+}
+
+div[class*="erv"]{
+  background-color: green;
+}
