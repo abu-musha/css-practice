@@ -13,7 +13,6 @@ h1{
   font-family: monospace;
   font-family: cursive;
   font-family: fantasy;
-
   font-family: roboto;
   font-family: 'lato', sans-sarif;
 
@@ -62,5 +61,5 @@ h4{
 
 .h4{
   font-size: 40px;
-  font-variant: small-caps;
+  font-variant: small-caps;  
 }
