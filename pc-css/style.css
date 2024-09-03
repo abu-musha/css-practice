@@ -1,0 +1,39 @@
+.div{
+  width: 32%;
+  background-color: brown;
+  height: 200px;
+  overflow: hidden;
+  float: left;
+  margin-right: 15px;
+}
+
+img{
+  
+  float: left;  
+  float: none;
+  float: left;
+  margin-right: 10px;
+  display: block;
+}
+
+.parent{
+  border: 1px solid aqua;
+  overflow: hidden;
+  overflow: auto;
+}
+
+
+#nav{
+  list-style: none;
+  background-color: rgba(230, 126, 34,1.0);
+  padding: 0px;
+  margin: 0 0 15px;
+}
+
+#nav li{
+  float: left;
+}
+
+#nav li a{
+  text-decoration: none;
+}
