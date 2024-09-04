@@ -1,0 +1,109 @@
+.child{
+  background: rgba(52, 152, 219,1.0);
+  width: 50px;
+  height: 40px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+
+}
+
+.parent{
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+
+}
+
+.child p{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+
+/* nth child  */
+.child:first-child{
+  background: rgba(231, 76, 60,1.0);
+}
+
+.child:last-child{
+  background-color: rgba(241, 196, 15,1.0);
+}
+
+.child:nth-child(1){
+  background-color: rgba(39, 174, 96,1.0);
+}
+
+.child:nth-child(3){
+  background-color: rgba(26, 188, 156,1.0);
+}
+
+.child:nth-last-child(2){
+  background-color: rgba(0, 184, 148,1.0);
+}
+
+.child:nth-child(odd){
+  background-color: rgba(45, 52, 54,1.0);
+}
+
+.child:nth-child(even){
+  background-color: rgba(232, 67, 147,1.0);
+}
+
+.child:nth-child(n){
+  background-color: rgba(214, 48, 49,1.0);
+}
+
+.child:nth-child(2n){
+  background-color: rgba(0, 184, 148,1.0);
+}
+
+.child:nth-child(n+3){
+  background-color: rgba(0, 206, 201,1.0);
+}
+
+.child:nth-child(2n+2){
+  background-color: rgba(232, 67, 147,1.0);
+}
+
+.child:nth-child(2n-2){
+  background-color: rgba(108, 92, 231,1.0);
+}
+
+
+/* Form Styling */
+
+form{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+input[type='text']{
+  border: 1px solid lightgray;
+  padding: 15px 25px;
+  color: black;
+  font-size: 14px;
+  border-radius: 5px;
+  float: left;
+}
+
+
+input[type='button']{
+  background-color: rgba(0, 184, 148,1.0);
+  border: 1px solid rgba(214, 48, 49,1.0);
+  padding: 15px 25px;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  transition: 0.3s;
+}
+
+input:not(:placeholder-shown) + input[type='button']{
+  display: block;
+}
