@@ -1,0 +1,34 @@
+
+#test p.pera{
+  color: #34495e;
+}
+
+#test p{
+  color: #9b59b6;
+}
+
+.child .pera{
+  color: #2ecc71;
+}
+
+.child p.pera{
+  color: #3498db;
+}
+
+.pera{
+  color: #1abc9c;
+}
+
+p.pera{
+  color: aqua;
+}
+
+p{
+  color: red;
+  color: blue;
+}
+
+p{
+  color: green !important;
+  color: #c0392b !important;
+}
