@@ -1,0 +1,39 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+#one{
+  background-color: #3498db;
+  padding: 50px;
+  border: 10px solid black;
+  box-sizing: content-box;
+}
+
+#two{
+  background-color: #9b59b6;
+  padding: 50px;
+  border: 10px solid #f39c12;
+  box-sizing: border-box;
+}
+
+.test{
+  width: 350px;
+  height: 400px;
+  margin-bottom: 15px;
+  color: white;
+
+}
+
+#learning{
+  box-sizing: border-box;
+}
+
+.child{
+  background-color: #1abc9c;
+  padding: 10px 8px;
+  border: 5px solid #d35400;
+  box-sizing: border-box;
+  width: 32%;
+  float: left;
+  margin-right: 1%;
+}
