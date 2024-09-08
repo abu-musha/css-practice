@@ -1,0 +1,14 @@
+/* #test{
+  background-color: aqua;
+  width: 90%;
+  width: calc(100% - 200px);
+  margin: 0 auto;
+} */
+
+#test{
+  background-color: aqua;
+  width: 90%;
+  width: max(70%, 700px); /* min-width: 700px */
+  width: min(70%, 700px);
+  margin: 0 auto;
+}
