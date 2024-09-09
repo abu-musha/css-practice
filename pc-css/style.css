@@ -1,82 +1,32 @@
-.child_service{
-  width: 300px;
-  
-  
-  text-align: center;
-  height: 400px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  position: relative;
-  overflow: hidden;
-  
+p{
+  color: blueviolet;
 }
 
-
-
-.child_service h2{
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
+div p{
+  color: red;
 }
 
-.child_service p{
-  color: white;
-  margin-bottom: 35px;
+div > p{
+  color: greenyellow;
 }
 
-.child_service a{
-  background: rgba(243, 156, 18,1.0);
-  padding: 16px 30px;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px; 
-
+div + p{
+  color: blue;
 }
 
-img{
-  width: 100%;
-  display: block;
-  max-width: 100%;
-  height: 100%;
-  transition: 0.3s;
+div ~ p{
+  color: aqua;
 }
 
-.child_service:hover img {
-  transform: scale(1.2);
+section + p {
+  color: violet;
 }
 
-
-.child_service:hover .inner_service{
-  
-  top: 0px;
-  
+section ~ p {
+  color: black;
 }
 
-
-
-.inner_service{
-    
-    padding: 10% 5%;
-    position: absolute;
-    top: -500px;
-    width: 90%;
-    height: 97.5%;
-    z-index: 99;
-    transition: 1s;
-    
-}
-
-.inner_service::after{
-  
- background: #1b1464;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  content: '';
-   top: 0;
-  left: 0;
-  opacity: 0.7;
-  z-index: -1;
-  
-
-}
+div p
+div > p
+div + p
+div ~ p
