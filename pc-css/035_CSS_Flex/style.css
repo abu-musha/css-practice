@@ -1,0 +1,37 @@
+*{box-sizing: border-box;
+margin: 0px;
+padding: 0px;}
+
+.div_one{
+  background-color: #e67e22;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.div_two{
+  background: #27ae60;
+  padding: 20px;
+  width: 32.33%;
+  float: left;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.div_two p{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.div_two a{
+  background: #e74c3c;
+  padding: 13px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.div_two:last-child{
+  margin-right: 0px;
+}
