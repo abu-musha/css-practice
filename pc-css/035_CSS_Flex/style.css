@@ -2,25 +2,52 @@
 margin: 0px;
 padding: 0px;}
 
+.main{
+  padding: 30px;
+}
+
 .div_one{
   background-color: #e67e22;
   text-align: center;
   padding: 30px;
   font-size: 30px;
+  display: flex;
 }
 
+
+.child{
+  display: flex;
+  /* flex-direction: row;  
+  flex-direction: column-reverse;
+  flex-direction: column;
+  flex-direction: row-reverse; */
+  /* flex-wrap: wrap;  
+  flex-wrap: wrap-reverse; */
+
+  
+  flex-flow: row-reverse wrap-reverse;
+  flex-flow: row wrap;
+  justify-content: start;
+  justify-content: end;
+  justify-content: space-around; /*sob dike soman space */
+  justify-content: space-between;
+  justify-content: space-evenly;
+}
 .div_two{
   background: #27ae60;
-  padding: 20px;
-  width: 32.33%;
-  float: left;
+  padding: 20px; 
   margin-right: 10px;
   margin-top: 20px;
+  margin-left: 10px;
+  flex-basis: 28%;
+  
+  
 }
 
 .div_two p{
   margin-bottom: 30px;
   margin-top: 30px;
+  
 }
 
 .div_two a{
@@ -32,6 +59,41 @@ padding: 0px;}
   border-radius: 5px;
 }
 
-.div_two:last-child{
+/* .div_two:last-child{
   margin-right: 0px;
+  margin-left: 0px;
+} */
+
+.extra{
+  margin-bottom: 25px;
+  height: 400px;
+  background-color: #2c3e50;
+  align-items: flex-start;
+  align-items: flex-end;
+  
+  align-items: stretch;
+  align-items: baseline;
+  align-items: center;
+  
+}
+
+.extra p{
+  margin: 0px;
+}
+
+.extra_three{
+  align-content: space-between;
+  align-content: space-evenly;
+  align-content: space-around;
+}
+
+.extra_three .div_two{
+  height: 50px;
+  width: 50px;
+  background-color: #16a085;
+}
+
+.extra_four{
+  align-content: center;
+  justify-content: center;
 }
