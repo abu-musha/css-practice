@@ -17,6 +17,8 @@
 
 .parent{
   display: flex;
+  flex-flow: row wrap; 
+  justify-content: space-evenly;
   padding: 20px;
 }
 
@@ -26,6 +28,7 @@
   margin-top: 20px;
   padding: 25px;
   margin: 10px;
+  flex-basis: 30%;
 }
 
 .child h2{
@@ -48,4 +51,35 @@
   display: inline-block;
   color: white;
   border-radius: 5px;
+}
+
+.extra .child{
+  height: 50px;
+  width: 50px;
+}
+
+.extra{
+  background: #05c46b;
+  height: 300px;
+  padding: 20px;
+  /* align-items: center; */
+  
+}
+
+.main{
+  padding: 20px;
+}
+
+.extraa2{
+  background: #808e9b;
+  height: 300px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.extraa2 .child{
+  height: 50px;
+  width: 50px;
+  background: #05c46b;
 }
