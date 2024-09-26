@@ -1,66 +1,51 @@
-
-
-body{
-    font-family: "Poppins", system-ui;
-    margin: 0px;
-}
-
-#main_menu{
-  background: #ff3838;
-}
-
-
-#main_menu ul{
+*{
+  box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  list-style: none;
+}
+
+.start h2{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #3c40c6;
   text-align: center;
-}
-
-#main_menu li{
-  
-  display: inline-block;
-  position: relative;
-}
-
-#main_menu li a{
-  text-decoration: none;
-  padding: 15px 20px;
-  display: block;
   color: white;
+  padding: 25px;
+  margin-top: 20px;
 }
 
-#main_menu li a:hover{
-  background: #4b4b4b;
+
+.parent{
+  display: flex;
+  padding: 20px;
 }
 
-
-#main_menu ul ul{
-  width: 200px;
-  position: absolute;
-  left: 0px;
-  top: 50px;
-  
-  display: none;
+.child{
+  background: #f53b57;
+  color: white;
+  margin-top: 20px;
+  padding: 25px;
+  margin: 10px;
 }
 
-#main_menu ul ul li{
-  display: block;
+.child h2{
+  font-size: 25px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+
 }
 
-#main_menu ul li:hover ul{
-  display: block;
+.child p{
+  font-family: monospace;
+  text-align: justify;
 }
 
-#main_menu ul li:hover a{
-  background: #636e72;
-}
-
-#main_menu ul li:hover li a{
-  background-color: #0984e3;
-}
-
-#main_menu ul ul li a:hover{
-  background: #636e72;
-  
+.child a{
+  text-decoration: none;
+  padding: 20px;
+  background: #3c40c6;
+  margin-top: 20px;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
 }
