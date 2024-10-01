@@ -1,0 +1,19 @@
+a{
+  font-size: 25px;
+  text-decoration: none;
+
+}
+
+
+a.hover{
+  font-size: 25pxc;
+  text-decoration: none;
+  color: red;
+  transition: 2s;
+}
+
+a.hover:hover{
+  color: yellowgreen;
+}
+
+
