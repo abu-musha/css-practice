@@ -1,0 +1,42 @@
+.form{
+  width: 1000px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.form h2{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 0px;
+}
+
+
+.form_control{
+  margin-top: 30px;
+  text-align: left;
+}
+
+.form_control label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form_control input,
+.form_control select,
+.form_control textarea{
+  width: 90%;
+  padding: 10px 0px;
+  border: 1px solid #ddd;
+}
+
+.form_control select{
+  width: 90%;
+}
+
+.form_control input[type='submit']{
+  background: blueviolet;
+  color: white;
+  width:300px;
+}
