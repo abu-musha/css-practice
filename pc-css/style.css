@@ -1,123 +1,38 @@
-#header{
-  padding: 20px;
-  border-bottom: 1px solid #ddd;
+:root{
+  --childBody: #8e44ad;
 }
 
-#header img{
-  display: block;
+
+.wrapper{
+  width: 80%;
+  padding: 20px;
   margin: 0 auto;
 }
 
-#mainMenu{
-  padding: 15px;
-  border-bottom: 1px solid #ddd;
-}
-
-#mainMenu ul{
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
+.hi{
+  background: #e67e22;
+  padding: 10px;
   text-align: center;
+  color: white;
 }
 
-#mainMenu ul li{
-  display: inline-block;
-  margin: 0px 8px;
- 
-}
-
-#mainMenu ul li a{
-  display: block;
-  
-  text-decoration: none;
-  font-size: 16px;
-  color: black;
-  font-weight: bold; 
-}
-
-#content_wrapper{
-  width: 1150px;
-  padding: 20px;
-  margin: 0 auto;
-  overflow: hidden;  
-  padding-bottom: 10px;
-}
-
-.content{
-  border-right: 1px solid #ddd;
-  width: 70%;
-  margin: 0 auto;
-  float: left;
-  padding: 25px 0px;
-  
-}
 
 .child{
-  width: 31%;
-  float: left;
-  margin-right: 10px;
-  height: 230px;
-  padding: 25px 0px;
-}
-
-.child h2{
-  font-size: 16px;
-  
-}
-
-.child h2 a{
-  color: black;
-  text-decoration: none;
-}
-
-.child img{
-  max-width: 100%;
-  display: none;
-}
-
-.child:first-child{
-  width: 65%;
-}
-
-.child:first-child img{
-  display: block;
-  float: right;
-  margin-left: 15px;
-}
-
-#sidebar_wrapper{
-  margin-left: 15px;
-  width: 28%;
-  float: left;
-}
-
-.sidebar_content{
+  background: var(--childBody);
+  color: white;
   padding: 15px;
+  margin-top: 10px;
 }
 
-.sidebar_content img{
-  display: 100%;
+.child p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.sidebar_content h2{
-  font-size: 15px;
-}
-
-.sidebar_content h2 a{
+.child a{
+  padding: 10px 15px;
   display: inline-block;
+  background: #e67e22;
+  color: white;
+  border-radius: 5px;
   text-decoration: none;
-  color: black; 
 }
-
-
-#footer{
-  padding: 30px;
-  margin: 0 auto;
-  border-top: 1px solid #ddd;
-}
-
-#footer img{
-  display: block;
-  margin: 0 auto;
-}
-
