@@ -1,73 +1,68 @@
 #header{
-  border: 1px solid #ddd;
-  
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
 }
 
 #header img{
   display: block;
-  margin: 10px auto;
-  padding: 5px 0px;
+  margin: 0 auto;
 }
 
-#main_menu{
-  padding: 10px;
+#mainMenu{
+  padding: 15px;
   border-bottom: 1px solid #ddd;
 }
 
-#main_menu ul{
+#mainMenu ul{
+  list-style: none;
   margin: 0px;
   padding: 0px;
-  list-style: none;
   text-align: center;
+}
+
+#mainMenu ul li{
+  display: inline-block;
+  margin: 0px 8px;
+ 
+}
+
+#mainMenu ul li a{
+  display: block;
+  
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-weight: bold; 
+}
+
+#content_wrapper{
+  width: 1150px;
+  padding: 20px;
+  margin: 0 auto;
+  overflow: hidden;  
+  padding-bottom: 10px;
+}
+
+.content{
+  border-right: 1px solid #ddd;
+  width: 70%;
+  margin: 0 auto;
+  float: left;
+  padding: 25px 0px;
   
 }
 
-#main_menu ul li{
-  display: inline-block;
-}
-
-#main_menu ul li a{
-  text-decoration: none;
-  margin-right: 10px;
-  font-weight: bold;
-  font-size: 16px;
-  color: black;
-}
-
-#main_menu ul li a:hover{
-  color: #6CA2C8;
-}
-
-#content{
-  width: 1150px;
-  padding: 20px 30px;
-  border-bottom: 1px solid #ddd;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.main_content{
-  float: left;
-  width: 70%;
-  border-right: 1px solid #ddd;
-  overflow: hidden;
-}
-
 .child{
-  float: left;
-  padding: 1% 1%;
   width: 31%;
-  height: 250px;
-}
-
-.child img{
-  max-width: 100%;
-  display: none;
+  float: left;
+  margin-right: 10px;
+  height: 230px;
+  padding: 25px 0px;
 }
 
 .child h2{
-  font-size: 18px;  
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  
 }
 
 .child h2 a{
@@ -75,19 +70,54 @@
   text-decoration: none;
 }
 
+.child img{
+  max-width: 100%;
+  display: none;
+}
+
 .child:first-child{
-  width: 62%;
-  height: 200px;
-  float: left;
+  width: 65%;
 }
 
 .child:first-child img{
   display: block;
   float: right;
+  margin-left: 15px;
+}
+
+#sidebar_wrapper{
+  margin-left: 15px;
+  width: 28%;
+  float: left;
+}
+
+.sidebar_content{
+  padding: 15px;
+}
+
+.sidebar_content img{
+  display: 100%;
+}
+
+.sidebar_content h2{
+  font-size: 15px;
+}
+
+.sidebar_content h2 a{
+  display: inline-block;
+  text-decoration: none;
+  color: black; 
 }
 
 
-
-#side_content{
-  margin-left: 20px;
+#footer{
+  padding: 30px;
+  margin: 0 auto;
+  border-top: 1px solid #ddd;
 }
+
+#footer img{
+  display: block;
+  margin: 0 auto;
+}
+
